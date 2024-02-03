@@ -8,6 +8,6 @@ class Solution {
             else if(c == 'P' || c == 'p') cnt--;
         }    
 
-        return cnt == 0 ? answer : !answer;
+        return cnt == 0;
     }
 }
