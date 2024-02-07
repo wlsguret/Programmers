@@ -1,8 +1,6 @@
-import java.util.Arrays;
-
 class Solution {
     public String solution(String my_string, int[] indices) {
-        Arrays.sort(indices);
+        // 성능 최적화
         char[] chars = my_string.toCharArray();
         for(int i = indices.length -1; i >= 0; i--) {
             chars[indices[i]] = '\0';
