@@ -2,9 +2,8 @@ class Solution {
     boolean solution(String s) {
         // 길이가 홀수 일때 실패
         if(s.length() % 2 != 0) return false;
-        
         // 닫힘으로 시작 실패
-        if(s.startsWith(")")) return false;
+        else if(s.startsWith(")")) return false;
         // 열림으로 종료 실패
         else if(s.endsWith("(")) return false;
         
@@ -24,11 +23,8 @@ class Solution {
                     if(cnt == 0) isOpen = false;
                     break;
             }
-        }
-
-        System.out.print("성공");
-        // 종료 조건을 만나지 않은경우 성공
-        return cnt == 0;
+        } 
+        return cnt == 0; // 올바르게 짝지어진 경우 성공
     }
     
 }
