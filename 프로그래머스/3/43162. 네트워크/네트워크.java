@@ -31,10 +31,11 @@ class Solution {
             }
         }
         
-        HashSet<Integer> result = Arrays.stream(networks)
-          .boxed()
-          .collect(Collectors.toCollection(HashSet::new));  
+        Set set = new HashSet();
+        for(int i : networks) {
+            set.add(i);
+        }  
 
-        return result.size();
+        return set.size();
     }
 }
