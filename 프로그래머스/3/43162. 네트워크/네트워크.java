@@ -1,5 +1,5 @@
-import java.util.*;
-import java.util.stream.*;
+import java.util.Set;
+import java.util.HashSet;
 
 class Solution {
     public int solution(int n, int[][] computers) {
