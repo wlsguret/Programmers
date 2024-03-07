@@ -18,7 +18,7 @@ class Solution {
                     break;
             }
             if(cnt < 0) return false;
-        }
+        } 
 
         return cnt == 0;
     }
