@@ -9,7 +9,7 @@ public class Solution {
         for(int num : arr) {
             if(tmp != num) answer[cnt++] = num;
             tmp = num;
-        }
+        } 
 
         return Arrays.copyOf(answer, cnt);
     }
