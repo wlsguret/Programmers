@@ -1,14 +1,10 @@
 class Solution {
     public int solution(int chicken) {
-        int answer = 0;
-        int service = 0;
-        do {
-            chicken += service;
-            service = chicken / 10;
-            chicken = chicken % 10;
-            answer += service;
-        } while(service + chicken >= 10);
-        
+        int answer = chicken/9;
+        if(chicken>1&&chicken%9==0){
+            answer--;
+        }
+
         return answer;
     }
     
