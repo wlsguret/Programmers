@@ -10,10 +10,7 @@ class Solution {
                 map.put(start, map.getOrDefault(start,0) + 1);
             }
         }
-        int answer = 0;
-        for(int i : map.values()) {
-            if(i > 1) answer++;
-        }
-        return answer;
+
+        return (int) map.values().stream().filter(i -> i > 1).count();
     }
 }
