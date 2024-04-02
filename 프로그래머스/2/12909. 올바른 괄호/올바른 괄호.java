@@ -20,7 +20,7 @@ class Solution {
             if(cnt < 0) return false;
         } 
 
-        return cnt == 0;
+        return cnt == 0; 
     }
 
 }
