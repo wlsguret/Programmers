@@ -12,5 +12,5 @@ class Solution {
         }
 
         return (int) map.values().stream().filter(i -> i > 1).count();
-    }
+    }  
 }
