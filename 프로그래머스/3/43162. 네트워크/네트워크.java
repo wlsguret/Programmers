@@ -9,7 +9,7 @@ class Solution {
         int[] networks = new int[n];
         for(int i = 0; i < n; i++) {
             networks[i] = i;
-        }    
+        }     
         
         for(int i = 0; i < n; i++) {
             int[] networkInfo = computers[i];
