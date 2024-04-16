@@ -11,7 +11,7 @@ class Solution {
         return word.replace("aya", " ")
             .replace("ye", " ")
             .replace("woo", " ")
-            .replace("ma", " ")
+            .replace("ma", " ") 
             .isBlank();
     }
 }
