@@ -4,7 +4,7 @@ class Solution {
         int half = s.length() / 2;
         if(s.length() % 2 == 0) {
             answer = s.substring(half -1, half +1);
-        } else {
+        } else { 
             answer = s.substring(half, half +1);
         }
         
