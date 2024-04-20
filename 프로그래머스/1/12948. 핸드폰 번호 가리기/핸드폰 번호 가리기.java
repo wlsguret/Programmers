@@ -5,7 +5,7 @@ class Solution {
         sb.append("*".repeat(Math.max(0, phone_number.length() - 4)));
 
         sb.append(phone_number.substring(phone_number.length() -4));
-
+ 
         return sb.toString(); 
     }
 }
