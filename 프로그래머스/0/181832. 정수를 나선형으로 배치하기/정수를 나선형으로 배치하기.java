@@ -9,7 +9,7 @@ class Solution {
         while(value++ < n*n) {
             answer[y][x] = value;
             
-            switch (direction) {
+            switch (direction) { 
                 case 0 :
                     x++;
                     if(x == n || answer[y][x] != 0) {
