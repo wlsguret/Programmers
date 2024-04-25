@@ -11,7 +11,7 @@ class Solution {
             }
             if(count > limit) {
                 answer += power;
-            } else {
+            } else { 
                 answer += count;
             }
             
