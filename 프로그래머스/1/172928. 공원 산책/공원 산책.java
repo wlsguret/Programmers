@@ -7,7 +7,7 @@ class Solution {
 
         Map<Map<String, Integer>, String> map = new LinkedHashMap<>(); // 지도
         Map<String, Integer> location = new HashMap<>(); // 시작위치
-
+ 
         // 지도를 그리며 시작위치 찾기
         int tmpX = 0;
         int tmpY = 0;
