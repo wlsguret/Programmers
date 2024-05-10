@@ -16,7 +16,7 @@ class Solution {
                     answer[1] = index;
                 }
             }
-            
+             
             int lastIndex = row.lastIndexOf("#");
             if(lastIndex != -1) {
                 if(lastIndex >= answer[3]) {
