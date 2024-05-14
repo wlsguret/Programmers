@@ -14,7 +14,7 @@ public class Solution {
         int[] answer = new int[arr.length - cnt];
         
         int j = 0;
-        for(int num : arr) {
+        for(int num : arr) { 
             if(num != -1) {
                 answer[j++] = num;
             }
