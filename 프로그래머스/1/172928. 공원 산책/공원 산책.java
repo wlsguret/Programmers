@@ -9,7 +9,7 @@ class Solution {
         Map<String, Integer> location = new HashMap<>(); // 시작위치
  
         // 지도를 그리며 시작위치 찾기
-        int tmpX = 0;
+        int tmpX = 0; 
         int tmpY = 0;
         for (String road : park) {
             tmpX = 0;
