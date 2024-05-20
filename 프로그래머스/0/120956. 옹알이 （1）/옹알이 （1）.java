@@ -12,6 +12,6 @@ class Solution {
             .replace("ye", " ")
             .replace("woo", " ")
             .replace("ma", " ") 
-            .isBlank();
+            .isBlank(); 
     }
 }
