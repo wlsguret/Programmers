@@ -5,7 +5,7 @@ class Solution {
                 if(info[1].equals(id_pw[1])) return "login";
                 else return "wrong pw";
             }
-        }
+        } 
         
         return "fail";
     }
