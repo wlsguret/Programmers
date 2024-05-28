@@ -5,7 +5,6 @@ class Solution {
         for(int i = n; i > 0; i--) {
             int num = 0;
             for(int j = i; j >= 0; j--) {
-                //System.out.println(num+ "  " + j);
                 if(num == n)  {
                     answer++;
                     break;
@@ -13,7 +12,6 @@ class Solution {
                 else if(num > n) break;
                 else num += j;
             }
-            //System.out.println(i + "회차 "+ answer);
         }
         
         return answer;
