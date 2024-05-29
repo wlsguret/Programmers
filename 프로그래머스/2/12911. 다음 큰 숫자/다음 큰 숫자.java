@@ -1,9 +1,11 @@
 class Solution {
     public int solution(int n) {
-        int cnt = count(n);
+        //int cnt = count(n);
+        int cnt = Integer.bitCount(n);
         
         while (n++ <= 1_000_000) {
-            if(cnt == count(n)) break;
+            //if(cnt == count(n)) break;
+            if(cnt == Integer.bitCount(n)) break;
         }
         
         return n;
