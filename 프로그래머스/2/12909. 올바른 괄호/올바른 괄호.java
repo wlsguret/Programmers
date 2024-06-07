@@ -11,7 +11,7 @@ class Solution {
         for(char c : s.toCharArray()) {
             switch(c) {
                 case '(' :
-                    cnt++;
+                    cnt++; 
                     break;
                 case ')' :
                     cnt--;
