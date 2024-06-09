@@ -7,7 +7,7 @@ class Solution {
         return answer;
     }
     
-    boolean check(String word) {
+    boolean check(String word) { 
         return word.replace("aya", " ")
             .replace("ye", " ")
             .replace("woo", " ")
