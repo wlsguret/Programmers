@@ -3,7 +3,7 @@ class Solution {
         int answer = 0;
         for(String word : babbling) {
             if(check(word)) answer++;
-        }    
+        }     
         return answer;
     }
     
