@@ -7,5 +7,5 @@ class Solution {
             else answer -= absolutes[i];
         }
         return answer; 
-    }
+    } 
 }
