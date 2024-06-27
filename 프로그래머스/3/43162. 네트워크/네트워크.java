@@ -3,7 +3,7 @@ import java.util.HashSet;
 
 class Solution {
     public int solution(int n, int[][] computers) {
-        int answer = 0;
+        int answer = 0;  
         // 네트워크 키 초기화
         // 각자 index 를 네트워크 ID로 가지고 있음
         int[] networks = new int[n];
