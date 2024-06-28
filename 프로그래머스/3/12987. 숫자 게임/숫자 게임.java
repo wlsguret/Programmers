@@ -5,18 +5,13 @@ class Solution {
         int answer = 0;
         Arrays.sort(A);
         Arrays.sort(B);
-        int tmp = 0;
-        for(int a : A) {
-            for(int i = tmp; i < B.length; i++) {
-                int b = B[i];
-                if(a > b) tmp = i;
-                else if(a < b) {
-                    tmp = ++i;
-                    answer++;
-                    break;
-                }
+        for(int i = A.length-1, j = B.length-1; i >=0; i--) {
+            if(A[i] < B[j]) {
+                answer++;
+                j--;
             }
         }
+       
         return answer;
     }
 }
