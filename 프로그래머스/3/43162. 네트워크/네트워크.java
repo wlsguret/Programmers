@@ -16,7 +16,7 @@ class Solution {
             int ip = networks[i];
             for(int j = 0; j < n; j++) { 
                 if(i == j) continue;
-                
+                 
                 int isConnected = networkInfo[j];
                 if(isConnected == 1) {
                     int oldIp = networks[j];
