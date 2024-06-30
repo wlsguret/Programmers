@@ -8,6 +8,6 @@ class Solution {
             if (people[i] + people[j] <= limit)
                 ++i; 
         }
-        return people.length - i;
+        return people.length - i; 
     }  
 }
