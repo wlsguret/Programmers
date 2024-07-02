@@ -6,6 +6,6 @@ class Solution {
         
         int idx = array.length / 2;
         
-        return array[idx]; 
+        return array[idx];
     }
 }
