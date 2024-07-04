@@ -4,7 +4,7 @@ class Solution {
             if(info[0].equals(id_pw[0])) {
                 if(info[1].equals(id_pw[1])) return "login";
                 else return "wrong pw";
-            }
+            } 
         } 
         
         return "fail";
