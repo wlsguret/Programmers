@@ -4,7 +4,7 @@ class Solution {
         for(int num : array) {
             while(num > 0) {
                 int n = num % 10;
-                if(n == 7) answer++;
+                if(n == 7) answer++; 
                 num /= 10;
             }
         }
