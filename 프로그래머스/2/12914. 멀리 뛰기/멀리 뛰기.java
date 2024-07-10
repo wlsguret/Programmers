@@ -7,7 +7,7 @@ class Solution {
         arr[1] = 2;
         arr[2] = 3;
         
-        for(int i = 3; i < n; i++) {
+        for(int i = 3; i < n; i++) { 
             arr[i] = (arr[i-1] + arr[i-2]) % 1234567;
         }
         
