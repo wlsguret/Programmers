@@ -8,7 +8,7 @@ class Solution {
             if(x * y == yellow) {
                 x += 2;
                 y += 2;
-                if(x >= y) {
+                if(x >= y) { 
                     answer = new int[] {x, y};
                 } else {
                     answer = new int[] {y, x};
