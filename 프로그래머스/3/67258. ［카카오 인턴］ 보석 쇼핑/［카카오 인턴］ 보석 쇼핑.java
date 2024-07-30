@@ -13,7 +13,7 @@ class Solution {
             
             if(!gemIndexMap.containsKey(gem)) {
                 gemIndexMap.put(gem, i);
-                end = i;
+                end = i; 
                 answer = new int[] {start + 1, end + 1};    
             } else {
                 gemIndexMap.put(gem, i);
