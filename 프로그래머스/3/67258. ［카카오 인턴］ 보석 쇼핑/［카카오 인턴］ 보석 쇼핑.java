@@ -10,7 +10,7 @@ class Solution {
         
         for(int i = 0; i < gems.length; i++) {
             String gem = gems[i];
-            
+              
             if(!gemIndexMap.containsKey(gem)) {
                 gemIndexMap.put(gem, i);
                 end = i; 
