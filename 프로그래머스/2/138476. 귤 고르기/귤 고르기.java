@@ -14,11 +14,10 @@ class Solution {
         Collections.reverse(entries);
         
         int answer = 0;
-        int tmp = 0;
         for (Map.Entry<Integer, Integer> entry : entries) {
-            tmp += entry.getValue();
+            k -= entry.getValue();
             answer++;
-            if(tmp >= k) break;
+            if(k <= 0) break;
         }
         
         return answer;
