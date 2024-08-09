@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 class Solution {
     public int solution(int k, int[] tangerine) {
         Map<Integer, Integer> map = new HashMap();
-        for(int size : tangerine) {
+        for(int size : tangerine) { 
             map.put(size, map.getOrDefault(size, 0) + 1);
         }
         
