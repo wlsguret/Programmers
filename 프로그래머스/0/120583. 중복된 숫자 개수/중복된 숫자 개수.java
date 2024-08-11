@@ -3,7 +3,7 @@ class Solution {
         int answer = 0;
         for(int num : array) {
             if(num == n) answer++;
-        }
+        } 
         return answer;
     }
 }
