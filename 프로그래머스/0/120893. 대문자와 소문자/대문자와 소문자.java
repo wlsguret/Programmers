@@ -3,7 +3,7 @@ class Solution {
         String answer = "";
         
         for(char c : my_string.toCharArray()) {
-            if(c > 96) {
+            if(c >= 'a') {
                 c -= 32;
             } else {
                 c += 32;
