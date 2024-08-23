@@ -9,5 +9,5 @@ class Solution {
             if(tmp < min) min = tmp;
         }
         return min + " " + max;
-    } 
+    }  
 }
