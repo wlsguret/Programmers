@@ -2,7 +2,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
-
+ 
 class Solution {
     public int solution(String[][] clothes) {
         Map<String, List<String>> map = new HashMap();
