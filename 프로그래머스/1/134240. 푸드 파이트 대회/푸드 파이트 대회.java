@@ -9,7 +9,7 @@ class Solution {
                     sb.append(i);
                 }
             }
-        }
+        } 
         
         return sb.toString() + "0" + sb.reverse().toString();
     }
