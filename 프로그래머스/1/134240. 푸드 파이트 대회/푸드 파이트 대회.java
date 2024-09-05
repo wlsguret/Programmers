@@ -7,7 +7,7 @@ class Solution {
             if(num > 1) {
                 for(int j =0; j< num/2;j++) {
                     sb.append(i);
-                }
+                } 
             }
         } 
         
