@@ -5,7 +5,7 @@ class Solution {
         for(int i = 1; i < 10; i++) {
             answer += i; 
         } 
-        
+         
         for(int num : numbers) {
             answer -= num;
         }
