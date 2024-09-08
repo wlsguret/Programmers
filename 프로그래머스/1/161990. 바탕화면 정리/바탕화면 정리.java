@@ -10,7 +10,7 @@ class Solution {
             int index = row.indexOf("#");
             
             
-            if(index != -1) {
+            if(index != -1) { 
                 if(index < answer[1]) {
                     // 시작 x 좌표
                     answer[1] = index;
