@@ -9,5 +9,5 @@ class Solution {
                 ++i; 
         }
         return people.length - i; 
-    }  
+    }   
 }
