@@ -2,12 +2,12 @@ import java.util.*;
 
 class Solution {
     public int solution(String[] friends, String[] gifts) {
-        int answer = 0;
-        
+        int answer = 0; 
+         
         Map<String, Map<String, Integer>> history = new HashMap<>();
         Map<String, Integer> giftPoint = new HashMap<>();
 
-        // 초기화
+        // 초기화 
         for (String name : friends) {
             giftPoint.put(name, 0);
 
