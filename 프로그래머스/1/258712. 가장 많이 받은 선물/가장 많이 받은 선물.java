@@ -7,7 +7,7 @@ class Solution {
         Map<String, Map<String, Integer>> history = new HashMap<>();
         Map<String, Integer> giftPoint = new HashMap<>();
 
-        // 초기화 
+        // 초기화  
         for (String name : friends) {
             giftPoint.put(name, 0);
 
